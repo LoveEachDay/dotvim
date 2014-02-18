@@ -15,3 +15,6 @@ set softtabstop=2
 set tabstop=2
 set expandtab
 
+"======== Shortcut ==============
+map <C-n> :NERDTreeToggle<CR>
+
