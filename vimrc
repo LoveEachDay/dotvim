@@ -5,6 +5,7 @@ filetype plugin indent on
 
 set nocompatible
 set number
+set encoding=utf-8
 
 "======== Identation ============
 set autoindent
