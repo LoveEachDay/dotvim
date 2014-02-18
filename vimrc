@@ -19,4 +19,8 @@ set expandtab
 "======== Shortcut ==============
 map <C-n> :NERDTreeToggle<CR>
 map <C-m> :RainbowParenthesesToggle<CR>
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
 
