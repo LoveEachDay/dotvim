@@ -19,6 +19,7 @@ set expandtab
 "======== Shortcut ==============
 map <C-n> :NERDTreeToggle<CR>
 map <C-s> :SyntasticToggleMode<CR>
+map <C-m> :JasmineMake<CR>
 nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
