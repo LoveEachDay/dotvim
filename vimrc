@@ -24,3 +24,5 @@ nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
+"======== Global variable =======
+let g:jasmine_use_templates = ""
