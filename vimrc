@@ -6,6 +6,11 @@ filetype plugin indent on
 set nocompatible
 set number
 set encoding=utf-8
+set autoread  "Reload files changes outside vim
+set hlsearch
+
+"======== Global variable =======
+let mapleader = ","
 
 "======== Identation ============
 set autoindent
@@ -18,12 +23,14 @@ set expandtab
 
 "======== Shortcut ==============
 map <C-n> :NERDTreeToggle<CR>
-map <C-s> :SyntasticToggleMode<CR>
-map <C-m> :JasmineMake<CR>
+map <C-c> :SyntasticToggleMode<CR>
 nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
-"======== Global variable =======
-let g:jasmine_use_templates = ""
+"======== Turn off Swap files ===
+set noswapfile
+set nobackup
+set nowb
+
