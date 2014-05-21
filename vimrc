@@ -15,7 +15,7 @@ set clipboard=unnamed
 
 "======== Global variable =======
 let mapleader = ","
-imap <C-J> <Plug>snipMateNextOrTrigger
+imap <C-J> <esc>a<Plug>snipMateNextOrTrigger
 smap <C-J> <Plug>snipMateNextOrTrigger
 
 "======== Identation ============
