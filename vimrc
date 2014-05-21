@@ -15,6 +15,8 @@ set clipboard=unnamed
 
 "======== Global variable =======
 let mapleader = ","
+imap <C-J> <Plug>snipMateNextOrTrigger
+smap <C-J> <Plug>snipMateNextOrTrigger
 
 "======== Identation ============
 set autoindent
