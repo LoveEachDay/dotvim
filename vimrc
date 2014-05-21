@@ -6,10 +6,12 @@ colorscheme solarized
 filetype plugin indent on
 
 set nocompatible
+set backspace=indent,eol,start
 set number
 set encoding=utf-8
 set autoread  "Reload files changes outside vim
 set hlsearch
+set clipboard=unnamed
 
 "======== Global variable =======
 let mapleader = ","
