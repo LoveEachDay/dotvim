@@ -15,8 +15,7 @@ set clipboard=unnamed
 
 "======== Global variable =======
 let mapleader = ","
-imap <C-J> <esc>a<Plug>snipMateNextOrTrigger
-smap <C-J> <Plug>snipMateNextOrTrigger
+let g:ctrlp_map = '<c-c>'
 
 "======== Identation ============
 set autoindent
@@ -27,9 +26,9 @@ set softtabstop=2
 set tabstop=2
 set expandtab
 
+
 "======== Shortcut ==============
 map <C-n> :NERDTreeToggle<CR>
-map <C-c> :SyntasticToggleMode<CR>
 nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
