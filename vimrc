@@ -16,6 +16,7 @@ set clipboard=unnamed
 "======== Global variable =======
 let mapleader = ","
 let g:ctrlp_map = '<c-c>'
+let g:neocomplcache_enable_at_startup = 1
 
 "======== Identation ============
 set autoindent
